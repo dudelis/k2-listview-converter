@@ -80,6 +80,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Export\AvailableFormat.cs" />
+    <Compile Include="Export\ExcelFormatFactory.cs" />
+    <Compile Include="Export\ExcelFormat.cs" />
+    <Compile Include="Export\Export.cs" />
+    <Compile Include="Export\IExportFormat.cs" />
+    <Compile Include="Export\IExportFormatFactory.cs" />
+    <Compile Include="Export\PdfFormat.cs" />
+    <Compile Include="Export\PdfFormatFactory.cs" />
     <Compile Include="ListViewConverterControl\ListViewConverterControl_Control.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
